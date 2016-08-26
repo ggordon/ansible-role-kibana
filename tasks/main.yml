@@ -7,7 +7,7 @@
 
 - name: Download Kibana.
   get_url:
-    url: "https://download.elasticsearch.org/kibana/kibana/kibana-{{ kibana_version }}.tar.gz"
+    url: "http://download.elasticsearch.org/kibana/kibana/kibana-{{ kibana_version }}.tar.gz"
     dest: "{{ workspace }}/kibana-{{ kibana_version }}.tar.gz"
 
 - name: Expand Kibana.
