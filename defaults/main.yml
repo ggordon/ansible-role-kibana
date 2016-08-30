@@ -10,3 +10,6 @@ kibana_username: kibana
 kibana_password: password
 
 kibana_password_protect_all: false
+
+elasticsearch_server: "127.0.0.1"
+elasticsearch_port: 9200
